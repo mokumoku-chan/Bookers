@@ -21,3 +21,12 @@ body {
   border-collapse: separate;
   border-spacing: 20px
 }
+
+
+.new-category {
+  margin: 40px 0;
+}
+
+.new-input{
+  margin: 10px 0;
+}
