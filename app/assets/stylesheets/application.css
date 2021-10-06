@@ -23,10 +23,15 @@ body {
 }
 
 
-.new-category {
+.new {
   margin: 40px 0;
 }
 
 .new-input{
   margin: 10px 0;
+}
+
+
+.show-text > p {
+  margin: 30px;
 }
