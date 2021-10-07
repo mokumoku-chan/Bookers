@@ -61,3 +61,9 @@ textarea[name = "book[body]"] {
   width: 200px;
   height: 100px;
 }
+
+
+#notice {
+  color: green;
+  margin: 0 30px;
+}
