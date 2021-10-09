@@ -9,8 +9,8 @@ body {
   margin: 40px 40px
 }
 
-.field{
-  margin: 10px 0;
+.input-field{
+  margin: 10px;
 }
 
 .link {
@@ -87,4 +87,15 @@ textarea[name = "book[body]"] {
   margin: 40px 50px;
   list-style: square;
   font-size: 12px;
+}
+
+.field {
+  padding: 3px;
+}
+
+
+.error-field {
+  padding: 3px;
+  background-color: red;
+  display: table;
 }
