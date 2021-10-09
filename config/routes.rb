@@ -3,9 +3,7 @@ Rails.application.routes.draw do
 
   root :to => 'homes#top'
 
-  scope(path_names: {new: ''}) do
-    resources :books
-  end
+  resources :books
 
 
 end

@@ -67,3 +67,24 @@ textarea[name = "book[body]"] {
   color: green;
   margin: 0 30px;
 }
+
+
+.error {
+  width: 450px;
+  border: solid 3px red;
+  background-color: #f0f0f0;
+}
+
+
+.error-overview > h2 {
+  font-size: 12px;
+  color: white;
+  background-color: red;
+  padding: 5px 5px 5px 15px;
+}
+
+.error-detail {
+  margin: 40px 50px;
+  list-style: square;
+  font-size: 12px;
+}
