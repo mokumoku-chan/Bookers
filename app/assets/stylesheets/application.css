@@ -87,19 +87,9 @@ textarea[name = "book[body]"] {
 
 
 
+
 .field {
   margin: 20px 0;
-
-}
-
-.non-error-field{
- padding: 2px;
-}
-
-.error-field {
-  padding: 2px;
-  background-color: red;
-  display: table;
 }
 
 
@@ -109,4 +99,11 @@ textarea[name = "book[body]"] {
 
 .action-botton {
   margin: 20px 0;
+}
+
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
 }
