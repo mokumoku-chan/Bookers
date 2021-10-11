@@ -107,3 +107,7 @@ textarea[name = "book[body]"] {
   background-color: red;
   display: table;
 }
+
+label {
+  display: block;
+}

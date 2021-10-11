@@ -16,7 +16,7 @@
 
       <% @book.errors.full_messages.each do |message| %>
         <li class = error-detail-item>
-          <p><%= message %></p>
+          <%= message %>
 
         </li>
       <% end %>
@@ -28,12 +28,12 @@
 <%= form_with model:@book, local: true do |f| %>
 
   <div class = "field">
-    <label for "book-title"><h4>Title</h4></label>
+    <%= f.label :title %>
     <%= f.text_field :title %>
   </div>
 
   <div class = "field">
-    <label for "book-body"><h4>Body</h4></label>
+    <%= f.label :body %>
     <%= f.text_area :body %>
   </div>
 
@@ -45,4 +45,4 @@
 
 <%= link_to "Show", book_path(@book) %>
 |
-<%= link_to "Back", books_path
+<%= link_to "Back", books_path %>
